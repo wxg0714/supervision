@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">移动督查</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_name">账\t\t号</string>
+    <string name="prompt_password">密\t\t码</string>
+    <string name="action_sign_in">登  录</string>
+    <string name="error_invalid_password">密码不能为空！</string>
+    <string name="error_incorrect_password">密码错误或账号不存在！</string>
+    <string name="error_field_required">账号不能为空！</string>
+    <string name="auto_login">自动登录</string>
+    <!-- 信息页面 -->
+    <string name="all_messages">信息</string>
+    <string name="my_messages">我的信息</string>
+    <string name="release">发布</string>
+    <string name="setting">设置</string>
+    <string name="radio_water">水质</string>
+    <string name="radio_map">地图</string>
+    <string name="all_town">所属单位</string>
+    <string name="all_type">类型筛选</string>
+    <string name="main_top">移动督查</string>
+    <!-- 发布页面 -->
+    <string name="confirm_release">确认发布</string>
+    <string name="select_town">所属单位</string>
+    <string name="point_decs">地点描述</string>
+    <string name="type">类型选择</string>
+    <string name="zidingyi">自定义</string>
+    <string name="isOrNot">是否整改</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="cancel">取消</string>
+    <string name="demo">备\t\t\t\t注</string>
+    <string name="save">确认修改</string>
+    <string name="resetPwd">密码重置</string>
+    <string name="miaoshu">请输入地点描述</string>
+    <string name="beizhu">请输入备注</string>
+    <string name="xiang">请选择单位</string>
+    <string name="xiangz">请输入单位</string>
+    <string name="leixing">请选择类型</string>
+    <string name="add_pic_tag">添加图片</string>
+    <!--发布页面非空校验-->
+    <string name="no_pic">图片不能为空</string>
+    <string name="no_town">所属单位不能为空</string>
+    <string name="no_type">类型不能为空</string>
+    <string name="no_update">是否整改不能为空</string>
+    <string name="no_address">地点描述不能空</string>
+
+
+    <!--密码修改界面-->
+    <string name="error_reset_invalid_password">密码不能为空！</string>
+    <string name="lastPwd">请输入原密码</string>
+    <string name="newPwd">请输入新密码</string>
+    <string name="renewPwd">新密码再输一次</string>
+    <string name="no_equal">两次输入的密码不一致！</string>
+    <string name="error_old_pwd">原密码错误！</string>
+
+    <!-- 设置页面 -->
+    <string name="my_info">我的账号\t\t\t\t\t\t\t\t%1$s</string>
+    <string name="logout">退出账号</string>
+    <string name="update_pwd">修改密码</string>
+    <string name="confirm_update">确实修改</string>
+    <string name="validate">验证密码</string>
+    <string name="update_app">检查更新</string>
+    <string name="about_app">技术支持</string>
+    <!-- 技术支持 -->
+    <string name="lc8848_version">当前版本</string>
+    <string name="lc8848_it">技术支持</string>
+    <string name="lc8848_phone">联系方式</string>
+    <string name="lc8848_yewu">业务咨询</string>
+    <string name="lc8848_service">产品服务</string>
+    <string name="lc8848_yewu_number">13506799916</string>
+    <string name="lc8848_service_number">0579 - 559916</string>
+    <string name="lc8848_name">永康市联诚科技有限公司</string>
+
+    <!--信息详情-->
+    <string name="msg_tilte">详细信息</string>
+    <string name="num">编\t\t\t号:</string>
+    <string name="time">时\t\t\t间:</string>
+    <string name="belong_to_town">责任单位:</string>
+    <string name="water_info">类\t\t\t型:</string>
+    <string name="status">整改状态:</string>
+    <string name="after_info">整改信息:</string>
+    <string name="after_person">整改发布者:</string>
+    <string name="after_time">整改时间:</string>
+    <string name="before_photos">照\t\t\t片:</string>
+    <string name="after_photos">整改后照片:</string>
+    <string name="after_realse">发布整改信息</string>
+    <string name="address">地点描述:</string>
+    <string name="water_msg">水质信息:</string>
+    <string name="remark">备\t\t\t注:</string>
+
+
+    <!--信息列表-->
+    <string name="no_process">无</string>
+    <string name="need_process">需整改</string>
+    <string name="processing">已整改</string>
+    <string name="processed">整改完成</string>
+    <string name="processed_info">整改完成详情</string>
+    <string name="download_failed">下载失败</string>
+
+    <!--下拉刷新-->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">加载更多</string>
+    <string name="xlistview_footer_hint_ready">松开显示更多</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+
+
+</resources>

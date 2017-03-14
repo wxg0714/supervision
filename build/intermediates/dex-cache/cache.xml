@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="F:\supervision\app\libs\tiandituapi3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="17ad647fc23fdaadc17e6e26409bbd45843c0376">
+        <dex dex="F:\supervision\app\build\intermediates\transforms\dex\debug\folders\1000\2\tiandituapi3.0_d4e78296cea8a5dfec2554f2a26c90cb91977343\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\supervision\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="F:\supervision\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_61b5c701700aa3f655412195ee5a196d307c7234\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\supervision\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="01bc9839b06f19cbbd5473d3ba60af586c5ef38c">
+        <dex dex="F:\supervision\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_c9db7a06624d1b1d0a9a92db2f9a5c2005872699\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="@string/main_top"
+        android:textSize="16sp"
+        android:id="@+id/title"
+        android:padding="10dp"
+        android:textColor="@android:color/white"/>
+    <FrameLayout
+        android:id="@+id/frame_contaner"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"></FrameLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:layout_height="wrap_content">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_marginBottom="5dp"
+            android:background="@android:color/darker_gray"/>
+        <RadioGroup
+            style="?android:textAppearanceSmall"
+            android:id="@+id/main_tab_RadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:button="@null"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/radio_users"
+                android:drawableTop="@drawable/icon_messages"
+                android:text="@string/all_messages"
+                android:checked="true"
+                android:textColor="@color/tab_selector_tv_color"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                />
+            <RadioButton
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/radio_water"
+                android:drawableTop="@drawable/icon_water"
+                android:text="@string/radio_water"
+                android:button="@null"
+                android:gravity="center"
+                android:textColor="@color/tab_selector_tv_color"
+                android:layout_weight="1.0" />
+
+            <RadioButton
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/radio_release"
+                android:drawableTop="@drawable/icon_release"
+                android:text="@string/release"
+                android:button="@null"
+                android:gravity="center"
+                android:textColor="@color/tab_selector_tv_color"
+                android:layout_weight="1.0" />
+            <!--
+            <RadioButton
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/radio_map"
+                android:drawableTop="@drawable/icon_map"
+                android:text="@string/radio_map"
+                android:button="@null"
+                android:gravity="center"
+                android:textColor="@color/tab_selector_tv_color"
+                android:layout_weight="1.0" />
+                -->
+            <RadioButton
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/radio_settings"
+                android:drawableTop="@drawable/icon_setting"
+                android:text="@string/setting"
+                android:button="@null"
+                android:gravity="center"
+                android:textColor="@color/tab_selector_tv_color"
+                android:layout_weight="1.0" />
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

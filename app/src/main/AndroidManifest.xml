@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lc8848.supervision">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <permission android:name="android.permission.CAMERA" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".AppContext"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".WelcomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Splash_Theme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="me.iwf.photopicker.PhotoPickerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="me.iwf.photopicker.PhotoPagerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.UpdatePwdActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MessageDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.WaterInfoActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.MsgChangedActivity"
+            android:screenOrientation="portrait"/>
+
+        <receiver
+            android:name="com.chengtao.autoupdate.receiver.NetworkReceiver"
+            android:label="NetworkConnection">
+            <intent-filter>
+
+                <!-- <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/> -->
+                <action android:name="com.chengtao.autoupdate.service.ACTION_UPDATE" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.chengtao.autoupdate.service.DownloadService" />
+
+        <activity android:name=".activity.AboutActivity"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>
